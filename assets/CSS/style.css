@@ -92,6 +92,7 @@
     max-width: 510px;
     background: var(--whiteClr);
     border: 1.09px solid var(--brdrClr);
+    min-height: 100%;
 }
 
 .picHeight {
