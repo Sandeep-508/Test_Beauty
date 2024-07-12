@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Kaushan+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* <----------------------------------------------------------- root ----------------------------------------------------------------> */
+
+:root {
+
+    /* colors */
+
+    --bg-container: rgba(245, 248, 246, 1);
+    --text-clr: rgba(110, 146, 119, 1);
+    --light-black: #001008;
+    --btnClr: #6E9277;
+    --whiteClr: #FFFFFF;
+    --brdrClr: #0000001A;
+
+    /* font-family */
+
+    --fm-k: "Kaushan Script", cursive;
+    --fm-a: "Archivo", sans-serif;
+
+    /* font weight */
+
+    --fw-400: 400;
+    --fw-600: 600;
+
+
+    /* font-size */
+
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-25: 25px;
+    --fs-32: 32px;
+    --fs-40: 40px;
+    --fs-48: 48px;
+
+
+    /* lh */
+
+    --lh-19: 19px;
+    --lh-24: 24px;
+    --lh-32: 32px;
+    --lh-46: 46px;
+    --lh-48: 48px;
+    --lh-62: 62px;
+
+}
+
+/* <----------------------------------------------------------- different containers ----------------------------------------------------------------> */
+
+.container_1140 {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* <----------------------------------------------------------- spacified root value ----------------------------------------------------------------> */
+
+.fm-k {
+    font-family: var(--fm-k);
+}
+
+.fm-a {
+    font-family: var(--fm-a);
+}
+
+.textBlackClr {
+    color: var(--light-black);
+}
+
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+
+.fw-600 {
+    font-weight: var(--fw-600);
+}
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+.fs-25 {
+    font-size: var(--fs-25);
+}
+
+.fs-32 {
+    font-size: var(--fs-32);
+}
+
+.fs-48 {
+    font-size: var(--fs-48);
+}
+
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.fs-40 {
+    font-size: var(--fs-40);
+}
+
+.lh-19 {
+    line-height: var(--lh-19);
+}
+
+.lh-46 {
+    line-height: var(--lh-46);
+}
+
+.lh-32 {
+    line-height: var(--lh-32);
+}
+
+.lh-62 {
+    line-height: var(--lh-62);
+}
+
+.lh-24 {
+    line-height: var(--lh-24);
+}
+
+.lh-48 {
+    line-height: var(--lh-48);
+}
+
+a {
+    list-style: none !important;
+    text-decoration: none !important;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.opacity-70 {
+    opacity: 70%;
+}
+
+.opacity-30 {
+    opacity: 30%;
+}
+
+/* Media Quiries */
+
+@media (max-width: 992px) {
+    .gapMediaRwo {
+        gap: 24px;
+    }
+
+    .boxPropCol {
+        max-width: 768px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .boxPropCol {
+        max-width: 576px !important;
+    }
+
+    .textMediaHeading {
+        font-size: var(--fs-40) !important;
+        line-height: var(--lh-48) !important;
+    }
+
+    .marginCol {
+        margin: 16px !important;
+    }
+
+    .contProp {
+        padding: 24px !important;
+    }
+
+    .mtRow {
+        margin-top: 40px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .picHeight {
+        min-height: 250px !important;
+    }
+
+    .contProp {
+        padding: 18px !important
+    }
+
+    .line {
+        width: 40px !important;
+    }
+
+    .textMediaMainText {
+        font-size: var(--fs-20);
+    }
+
+    .textMediaHeading {
+        font-size: var(--fs-32) !important;
+        line-height: var(--lh-46) !important;
+    }
+
+    .mtRow {
+        margin-top: 24px !important;
+    }
+}
