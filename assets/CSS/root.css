@@ -158,7 +158,7 @@ a {
 
 /* Media Quiries */
 
-@media (max-width: 992px) {
+@media (max-width: 991.9px) {
     .gapMediaRwo {
         gap: 24px;
     }
