@@ -1,14 +1,12 @@
 @import url("./root.css");
 
+/* background color or images */
+
 .bg-container {
     background: var(--bg-container);
 }
 
-.line {
-    width: 60px;
-    height: 2px;
-    background: var(--text-clr);
-}
+/* spacing */
 
 .contProp {
     padding: 40px;
@@ -16,10 +14,6 @@
 
 .gapMediaHeading {
     gap: 15px;
-}
-
-.max-w-header-text {
-    max-width: 799px;
 }
 
 .mbheading {
@@ -34,16 +28,6 @@
     margin-bottom: 30px;
 }
 
-.boxPropCol {
-    max-width: 510px;
-    background: var(--whiteClr);
-    border: 1.09px solid var(--brdrClr);
-}
-
-.picHeight {
-    min-height: 390px;
-}
-
 .marginCol {
     margin: 30px;
 }
@@ -52,6 +36,8 @@
     margin-top: 42px;
     margin-bottom: 43px;
 }
+
+/* buttons */
 
 .devBtn {
     width: 156.5px;
@@ -83,19 +69,44 @@
     transition: all 200ms linear;
 }
 
+/* layout changes */
+
 .whTopCornerImg {
     width: 532px;
     height: 462px;
 }
 
-.posCornerImg {
-    top: -5%;
-    left: -14%;
-}
 
 .whBottomImg {
     width: 387px;
     height: 371px;
+}
+
+.line {
+    width: 60px;
+    height: 2px;
+    background: var(--text-clr);
+}
+
+.boxPropCol {
+    max-width: 510px;
+    background: var(--whiteClr);
+    border: 1.09px solid var(--brdrClr);
+}
+
+.picHeight {
+    min-height: 390px;
+}
+
+.max-w-header-text {
+    max-width: 799px;
+}
+
+/* positions */
+
+.posCornerImg {
+    top: -5%;
+    left: -14%;
 }
 
 .posBottomImg {
